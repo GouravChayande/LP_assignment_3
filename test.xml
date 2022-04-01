@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.90"/>
+    <errors>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="351"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="353"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="435"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="452"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="479"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="507"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="627"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="631"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="636"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="984"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c">
+            <location file="test.c" line="986"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="988"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1009"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1029"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1049"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1069"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1089"/>
+        </error>
+        <error id="literalWithCharPtrCompare" severity="warning" msg="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?" verbose="String literal compared with variable &amp;#039;ip_stat&amp;#039;. Did you intend to use strcmp() instead?">
+            <location file="test.c" line="1109"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: ptr" verbose="Uninitialized variable: ptr">
+            <location file="test.c" line="556"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: ptr" verbose="Uninitialized variable: ptr">
+            <location file="test.c" line="582"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: ptr" verbose="Uninitialized variable: ptr">
+            <location file="test.c" line="707"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: ptr" verbose="Uninitialized variable: ptr">
+            <location file="test.c" line="733"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;rptr&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;rptr&amp;#039; is assigned a value that is never used.">
+            <location file="test.c" line="132"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;gptr&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;gptr&amp;#039; is assigned a value that is never used.">
+            <location file="test.c" line="138"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: prev_node" verbose="Unused variable: prev_node">
+            <location file="test.c" line="889"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: next_node" verbose="Unused variable: next_node">
+            <location file="test.c" line="889"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: id1" verbose="Unused variable: id1">
+            <location file="test.c" line="893"/>
+        </error>
+    </errors>
+</results>
